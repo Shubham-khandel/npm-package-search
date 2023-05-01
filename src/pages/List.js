@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./FavoriteList.css";
+import "./List.css";
 import { GrFormView, GrEdit } from "react-icons/gr";
 import { AiFillDelete } from "react-icons/ai";
 
-export default function FavoriteList() {
+export default function List() {
   const myPackages = JSON.parse(localStorage.getItem("listData"));
 
   const [list, setList] = useState(myPackages);
@@ -27,20 +27,15 @@ export default function FavoriteList() {
 
   function handleView(name) {
     setView(name.message);
-    setDisabled(!disabled)
+    setDisabled(!disabled);
   }
 
   function handleEdit() {
-    
-        setDisabled(false);
-    
-    
+    setDisabled(false);
   }
-
-  function handleEditeSave(){
-    console.log('heee');
-  }
-
+function handleEditeSave(){
+  
+}
   return (
     <div className="main_div_list">
       <div className="head">
@@ -101,10 +96,16 @@ export default function FavoriteList() {
             value={view}
             cols="80"
             rows="5"
-            disabled = {disabled}
+            disabled={disabled}
           ></textarea>
           <div>
-            <button hidden= {disabled}  onClick={handleEditeSave} className="addbtn">Save</button>
+            <button
+              hidden={disabled}
+              onClick={handleEditeSave}
+              className="addbtn"
+            >
+              Save
+            </button>
           </div>
         </div>
       )}
