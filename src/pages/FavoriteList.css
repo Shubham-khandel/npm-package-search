@@ -1,0 +1,139 @@
+/* .main_div_list{
+    padding: 2rem;
+}
+.noList{
+    border: 2px solid black;
+    margin-top: 3rem;
+    text-align: center;
+    width: 60%;
+    height: 50vh;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.addbtn{
+    width: 10vw;
+    height: 7vh;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: large;
+    cursor: pointer;
+}
+.mapTable{
+    margin: 5rem;
+}
+table,th,td{
+    border: 2px solid;
+    border-collapse:collapse ;
+    width: 60%;
+    height: 30px;
+    padding: 5px;
+}
+.icons{
+    margin: 0 15px;
+    cursor: pointer;
+} */
+
+.main_div_list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .head h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .addbtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .addbtn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .mapTable {
+    margin-top: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .icons {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .noList {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .noList p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  button.addbtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button.addbtn:hover {
+    background-color: #3e8e41;
+  }
+  
